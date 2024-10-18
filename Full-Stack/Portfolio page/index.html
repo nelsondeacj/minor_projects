@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Portfolio</h1>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My text...</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-item">
+        <label for="html-skill">HTML</label>
+        <progress id="html-skill" value="90" max="100"></progress> 90%
+      </div>
+      <div class="skill-item">
+        <label for="html-skill">Python</label>
+        <progress id="html-skill" value="100" max="100"></progress> 90%
+      </div>
+      <!-- Repeat similar structure for other skills -->
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <img src="https://cdn5.vectorstock.com/i/1000x1000/25/54/python-programming-language-vector-11282554.jpg" alt="Your alt text" class="profile">
+        
+        <div class="project-list">
+            <details>
+                <summary>Project Title</summary>
+                <p>Project description goes here.</p>
+            </details>
+        </div>
+    </section>
+  </body>
+</html>

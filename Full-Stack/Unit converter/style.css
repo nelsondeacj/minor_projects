@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(206, 206, 201);
+    padding: 20px;
+  }
+  h1{
+    padding: 10px;
+    background: white;
+    border-radius: 25px;
+  }
+  p{
+    background-color: rgb(27, 12, 95);
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+  }
